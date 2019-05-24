@@ -1,0 +1,92 @@
+﻿
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+using UnityEngine.SceneManagement;
+
+public class Character : MonoBehaviour
+{
+
+    // Designer variables
+    public float speed = 10;
+    public float jumpSpeed = 10;
+    public Rigidbody2D physicsBody;
+    public string horizontalAxis = "Horizontal";
+    public string jumpButton = "jump";
+    public Animator CharacterAnimator;
+    public SpriteRenderer CharacterSprite;
+    public Collider2D CharacterCollider;
+   
+
+    // Used for initialization/
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame.
+    void Update()
+    {
+
+        // Gets axis input from Unity.
+        float leftRight = Input.GetAxis(horizontalAxis);
+
+
+        // Creates direction vector from axis input.
+        Vector2 direction = new Vector2(leftRight, 0);
+
+        // Makes direction vector length 1.
+        direction = direction.normalized;
+
+        // Calculates velocity
+        Vector2 velocity = direction * speed;
+        velocity.y = physicsBody.velocity.y;
+
+        // Gives the velocity to the rigidbody.
+        physicsBody.velocity = velocity;
+
+        //Gives the animatior the walking speed.
+        CharacterAnimator.SetFloat("MoveSpeed", Mathf.Abs(velocity.x));
+
+        //Flips the sprite if it is moving backward.
+        if (velocity.x < 0)
+        {
+            CharacterSprite.flipX = true;
+        }
+        else
+        {
+            CharacterSprite.flipX = false;
+        }
+
+
+
+
+        //Jumping
+       
+        //Detects if the player is touching the ground.
+        //Gets the LayerMask from Unity using the name of the layer.
+        LayerMask groundLayerMask = LayerMask.GetMask("Ground");
+
+        //Checks the player's collider to see if they are touching the LayerMask.
+        bool touchingGround = CharacterCollider.IsTouchingLayers(groundLayerMask);
+
+        CharacterAnimator.SetBool("TouchingGround", touchingGround);
+        //Checks to see if the jump button has been pressed.
+        bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
+        if (jumpButtonPressed == true && touchingGround == true)
+        {
+            //Sets the upward velocity to the player's jump speed when they have pressed jump.
+            velocity.y = jumpSpeed;
+
+            //Give the velocity to the rigidbody.
+            physicsBody.velocity = velocity;
+        }
+        //Sets the player to a falling state when their velocity is lower than 0.
+        if (physicsBody.velocity.y < 0)
+            CharacterAnimator.SetBool("Falling", true);
+        else
+            CharacterAnimator.SetBool("Falling", false);
+
+    }
+}
