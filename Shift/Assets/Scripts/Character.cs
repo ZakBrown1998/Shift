@@ -89,4 +89,7 @@ public class Character : MonoBehaviour
             CharacterAnimator.SetBool("Falling", false);
 
     }
-}
+    public void Kill()
+    {
+    }
+    }
