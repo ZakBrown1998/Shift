@@ -17,7 +17,8 @@ public class Character : MonoBehaviour
     public Animator CharacterAnimator;
     public SpriteRenderer CharacterSprite;
     public Collider2D CharacterCollider;
-   
+
+    public Lives livesObject;
 
     // Used for initialization/
     void Start()
@@ -63,7 +64,7 @@ public class Character : MonoBehaviour
 
 
         //Jumping
-       
+
         //Detects if the player is touching the ground.
         //Gets the LayerMask from Unity using the name of the layer.
         LayerMask groundLayerMask = LayerMask.GetMask("Ground");
@@ -87,9 +88,42 @@ public class Character : MonoBehaviour
             CharacterAnimator.SetBool("Falling", true);
         else
             CharacterAnimator.SetBool("Falling", false);
+    }
 
-    }
-    public void Kill()
-    {
-    }
+
+        //Used to kill the Character and program the after effects.
+        public void Kill()
+        {
+            //Takes away a life..
+            livesObject.LoseLife();
+            //Saves the change when the life is taken away.
+            livesObject.SaveLives();
+
+            //Checks if it's game over.
+
+            bool gameOver = livesObject.isGameOver();
+
+
+            //If it is game over the game over screen is loaded.
+
+            //Checks if the game is in game over state
+            if (gameOver == true)
+            {
+                //Resets the player's lives
+                livesObject.ResetLives();
+                //Loads the game over scene.
+                SceneManager.LoadScene("GameOver");
+
+            }
+            else
+            {
+
+                //If it is not game over, the current level is reset
+                Scene currentLevel = SceneManager.GetActiveScene();
+                //Checks Unity to find the current level
+                SceneManager.LoadScene(currentLevel.buildIndex);
+            }
+
+        }
+
     }

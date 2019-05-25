@@ -18,8 +18,7 @@ public class Spirit: MonoBehaviour
         {
 
             CharacterScript.Kill();
-            Scene currentLevel = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentLevel.buildIndex);
+         
         }
     }
 }

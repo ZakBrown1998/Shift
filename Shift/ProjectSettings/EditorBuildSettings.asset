@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Title.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: b862fa0baab27b2459dab5cd5fdc5625
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 7d459db225bf1734cbf4dff731364483
+  - enabled: 1
+    path: Assets/Scenes/Return To Title.unity
+    guid: 931e288778c6d26479cbc85c5bc16dbc
+  - enabled: 1
+    path: Assets/Scenes/Ruins Of Time.unity
+    guid: fc5b5653ff8eaa24d85ea0698b949452
+  - enabled: 1
+    path: Assets/Scenes/Victory&High Scores.unity
+    guid: 298ea60f5a477b044bf1347f44d107e3
+  - enabled: 1
+    path: Assets/Scenes/Caves Of Rememberance.unity
+    guid: 10c5b34df1b7fbb46b57ad926d4421bd
   m_configObjects: {}
