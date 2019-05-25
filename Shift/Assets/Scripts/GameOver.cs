@@ -14,6 +14,6 @@ public class GameOver : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("High-Scores"); }
+        if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Thanks-For-Playing"); }
     }
 }
