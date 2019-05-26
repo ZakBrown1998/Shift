@@ -30,6 +30,7 @@ public class Character : MonoBehaviour
     void Update()
     {
 
+
         // Gets axis input from Unity.
         float leftRight = Input.GetAxis(horizontalAxis);
 
@@ -77,6 +78,7 @@ public class Character : MonoBehaviour
         bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
         if (jumpButtonPressed == true && touchingGround == true)
         {
+            SoundManager.PlaySound("Jump");
             //Sets the upward velocity to the player's jump speed when they have pressed jump.
             velocity.y = jumpSpeed;
 

@@ -4,23 +4,20 @@ using UnityEngine;
 
 using UnityEngine.SceneManagement;
 
-public class ToGame : MonoBehaviour
-{
+public class ToThanks : MonoBehaviour {
 
-
-
-    void Update()
-    {
-        // Reset the score
-        PlayerPrefs.DeleteKey("score");
-
-        // Reset the lives
-        PlayerPrefs.DeleteKey("lives");
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
         //Used to make the game scene transition from the current one to a new one.
         //The transisition depends on the correct input button being pressed by the player.
-        if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Caves-Of-Rememberance");
+        if (Input.GetButtonDown("Submit"))
+        {
+            SceneManager.LoadScene("Thanks-For-Playing");
         }
     }
 }
-
-
