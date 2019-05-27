@@ -9,10 +9,10 @@ public class GameOver : MonoBehaviour
 
 
 
-    //Used to make the game scene transition from the game over screen to the high score screen when the correct input button is pressed by the player.
-
     void Update()
     {
+
+        //Used to make the game scene transition from the Game Over screen to the Thanks-For-Playing screen when the correct input button is pressed by the player.
 
         if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Thanks-For-Playing"); }
     }

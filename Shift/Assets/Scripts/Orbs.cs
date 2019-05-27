@@ -9,8 +9,7 @@ public class Orbs : MonoBehaviour
     //Public so we can drag and drop
     public Score scoreObject;
 
-    public AudioClip Orb;
-    public AudioSource MC;
+    public AudioSource Orb;
     // Variable to hold the Orb's value
     //It's public so we can change it in the editor
 
@@ -19,7 +18,6 @@ public class Orbs : MonoBehaviour
     // Used for initialization.
     void Start()
     {
-        MC = Camera.main.GetComponent<AudioSource>();
 
     }
 
@@ -44,10 +42,10 @@ public class Orbs : MonoBehaviour
             scoreObject.AddScore(OrbValue);
 
             //Plays the Orb sound effect.
-            MC.PlayOneShot(Orb);
+            Orb.Play();
 
-            //Destroy the gameObject that this script is attached to (i.e.The Orb)
-            Destroy(gameObject);
+    //Destroy the gameObject that this script is attached to (i.e.The Orb)
+    Destroy(gameObject);
         }
     }
 }
