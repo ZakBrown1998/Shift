@@ -46,7 +46,7 @@ public class Score : MonoBehaviour
         //Updates the visual score.
         scoreText.text = numericalScore.ToString();
     }
-    // Function used to save the score to the player preferences.
+    //Function used to save the score to the player preferences.
     //Public so it can be triggered from another script.
     public void SaveScore()
     {

@@ -10,16 +10,16 @@ public class Character : MonoBehaviour
 
 
     // Designer variables
-    public AudioSource Jump;
-    public float speed = 10;
-    public float jumpSpeed = 10;
-    public Rigidbody2D physicsBody;
-    public string horizontalAxis = "Horizontal";
-    public string jumpButton = "jump";
-    public Animator CharacterAnimator;
-    public SpriteRenderer CharacterSprite;
-    public Collider2D CharacterCollider;
-    public Lives livesObject;
+    public AudioSource Jump; //Jump Audio variable
+    public float speed = 10; //Float Speed variable
+    public float jumpSpeed = 10;//Jump Speed variable
+    public Rigidbody2D physicsBody; //Rigidbody 2D variable
+    public string horizontalAxis = "Horizontal"; //Horizontal Axis variable
+    public string jumpButton = "jump"; //JumpButton variable
+    public Animator CharacterAnimator; //Animator variable
+    public SpriteRenderer CharacterSprite; //Sprite Rendered variable
+    public Collider2D CharacterCollider; //Collider variable
+    public Lives livesObject; //Lives variable
 
     // Used for initialization
     void Start()
@@ -71,11 +71,11 @@ public class Character : MonoBehaviour
 
         //Code for Jumping
 
-        //Checks if the player is touching the ground.
+        //Checks if the Character is touching the ground.
         //Gets the LayerMask from Unity using the name of the layer.
         LayerMask groundLayerMask = LayerMask.GetMask("Ground");
 
-        //Checks the player's collider to see if they are touching the LayerMask.
+        //Checks the Character's collider to see if they are touching the LayerMask.
         bool touchingGround = CharacterCollider.IsTouchingLayers(groundLayerMask);
 
         CharacterAnimator.SetBool("TouchingGround", touchingGround);
@@ -93,7 +93,7 @@ public class Character : MonoBehaviour
             physicsBody.velocity = velocity;
         }
 
-        //Sets the player to a falling state when their velocity is lower than 0.
+        //Sets the Character to a falling state when their velocity is lower than 0.
         if (physicsBody.velocity.y < 0)
             CharacterAnimator.SetBool("Falling", true);
         else

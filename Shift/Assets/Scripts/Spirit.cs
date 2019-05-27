@@ -18,7 +18,8 @@ public class Spirit: MonoBehaviour
         {
 
             CharacterScript.Kill();
-         
+            
+
         }
     }
 }

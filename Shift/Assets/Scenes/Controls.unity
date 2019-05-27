@@ -454,7 +454,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time jewels are powerful jewels capable to time shifts. Collect one to witness
+  m_Text: Time jewels are powerful jewels capable of time shifts. Collect one to witness
     something amazing.
 --- !u!222 &206253246
 CanvasRenderer:
@@ -588,6 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 0}
+  Orb: {fileID: 0}
   OrbValue: 100
 --- !u!58 &336774242
 CircleCollider2D:
