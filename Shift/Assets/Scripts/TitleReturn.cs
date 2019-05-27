@@ -8,11 +8,11 @@ public class TitleReturn : MonoBehaviour
 {
 
 
-
+    // Update is called once per frame
     void Update()
     {
-        //Used to make the game scene transition from the current one to a new one.
-        //The transisition depends on the correct input button being pressed by the player.
+        //Used to make the game scene transition from the Thank You For Playing Screen to the Title Screen.
+        //The transisition activates when the "Space Bar" has been pressed by the player.
         if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Title"); }
     }
 }

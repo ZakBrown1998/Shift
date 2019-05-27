@@ -8,16 +8,16 @@ public class ToGame : MonoBehaviour
 {
 
 
-
+    // Update is called once per frame
     void Update()
     {
-        // Reset the score
+        // Resets the score
         PlayerPrefs.DeleteKey("score");
 
-        // Reset the lives
+        // Resets the lives
         PlayerPrefs.DeleteKey("lives");
-        //Used to make the game scene transition from the current one to a new one.
-        //The transisition depends on the correct input button being pressed by the player.
+        //Used to make the game scene transition from the Controls screen to the Caves Of Rememberance.
+        //The transisition activates when the "Space Bar" has been pressed by the player.
         if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Caves-Of-Rememberance");
         }
     }

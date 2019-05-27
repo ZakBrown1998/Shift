@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Caves-Of-Rememberance.unity
     guid: 10c5b34df1b7fbb46b57ad926d4421bd
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 1b1a3247bca9d2046aa50c85babfea98
   m_configObjects: {}

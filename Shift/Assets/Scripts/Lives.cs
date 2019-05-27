@@ -45,7 +45,7 @@ public class Lives : MonoBehaviour
 
     }
 
-    //Used to determine if the player is in the game over state or not base don their remianing lives.
+    //Used to determine if Character is in the game over state or not based on the amount of remianing lives.
     public bool isGameOver()
     {
 
@@ -62,6 +62,7 @@ public class Lives : MonoBehaviour
     [ContextMenu("ResetLives")]
     public void ResetLives()
     {
+    
         PlayerPrefs.DeleteKey("lives");
     }
 

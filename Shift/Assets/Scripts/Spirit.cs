@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 public class Spirit: MonoBehaviour
 {
 
-    //Unity calls this function automatically when the enemy touches any other object.
+    //Unity calls this function automatically when the Spirit touches any other object.
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Checks if the object the enemy has collided with has a player script and is therefore the player.
+        //Checks if the object the Spirit has collided with has a Character script and is therefore the Character.
         Character CharacterScript = collision.collider.GetComponent<Character>();
 
-        //Kills the player if they collide with the enemy.
+        //Kills the Character if they collide with the Spirit.
         if (CharacterScript != null)
         {
 

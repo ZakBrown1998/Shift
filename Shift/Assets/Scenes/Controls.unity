@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 45254167}
   - component: {fileID: 45254166}
   m_Layer: 0
-  m_Name: Text (2)
+  m_Name: Spirits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 204510002}
   - component: {fileID: 204510001}
   m_Layer: 0
-  m_Name: Text (3)
+  m_Name: Orbs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 206253246}
   - component: {fileID: 206253245}
   m_Layer: 0
-  m_Name: Text (4)
+  m_Name: Time-Jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 1233048324}
   - component: {fileID: 1233048323}
   m_Layer: 0
-  m_Name: Text
+  m_Name: How-To-Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1274,7 +1274,7 @@ GameObject:
   - component: {fileID: 1545674931}
   - component: {fileID: 1545674930}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1557,7 +1557,7 @@ GameObject:
   - component: {fileID: 2051069763}
   - component: {fileID: 2051069762}
   m_Layer: 0
-  m_Name: Text (5)
+  m_Name: Movement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

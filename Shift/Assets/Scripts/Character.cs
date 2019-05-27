@@ -8,7 +8,9 @@ using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour
 {
 
+
     // Designer variables
+    public AudioSource Jump;
     public float speed = 10;
     public float jumpSpeed = 10;
     public Rigidbody2D physicsBody;
@@ -17,31 +19,34 @@ public class Character : MonoBehaviour
     public Animator CharacterAnimator;
     public SpriteRenderer CharacterSprite;
     public Collider2D CharacterCollider;
-
     public Lives livesObject;
 
-    // Used for initialization/
-    void Start()
-    {
+    // Used for initialization
+    void Start() {
+
+    
 
     }
-
-    // Update is called once per frame.
+    
+    // Update is called once per frame
     void Update()
     {
+       
+    
+
 
 
         // Gets axis input from Unity.
         float leftRight = Input.GetAxis(horizontalAxis);
 
 
-        // Creates direction vector from axis input.
+        // Creates a direction vector from axis input.
         Vector2 direction = new Vector2(leftRight, 0);
 
         // Makes direction vector length 1.
         direction = direction.normalized;
 
-        // Calculates velocity
+        // Calculates the velocity
         Vector2 velocity = direction * speed;
         velocity.y = physicsBody.velocity.y;
 
@@ -51,7 +56,7 @@ public class Character : MonoBehaviour
         //Gives the animatior the walking speed.
         CharacterAnimator.SetFloat("MoveSpeed", Mathf.Abs(velocity.x));
 
-        //Flips the sprite if it is moving backward.
+        //Flips the sprite if it is moving in the opposite direction.
         if (velocity.x < 0)
         {
             CharacterSprite.flipX = true;
@@ -63,26 +68,27 @@ public class Character : MonoBehaviour
 
 
 
+        //Code for Jumping
 
-        //Jumping
-
-        //Detects if the player is touching the ground.
+        //Checks if the player is touching the ground.
         //Gets the LayerMask from Unity using the name of the layer.
         LayerMask groundLayerMask = LayerMask.GetMask("Ground");
 
         //Checks the player's collider to see if they are touching the LayerMask.
         bool touchingGround = CharacterCollider.IsTouchingLayers(groundLayerMask);
-
+        
         CharacterAnimator.SetBool("TouchingGround", touchingGround);
         //Checks to see if the jump button has been pressed.
         bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
         if (jumpButtonPressed == true && touchingGround == true)
+            
         {
-            SoundManager.PlaySound("Jump");
+            
             //Sets the upward velocity to the player's jump speed when they have pressed jump.
             velocity.y = jumpSpeed;
+            Jump.Play();
 
-            //Give the velocity to the rigidbody.
+            //Gives the velocity to the rigidbody.
             physicsBody.velocity = velocity;
         }
         //Sets the player to a falling state when their velocity is lower than 0.
@@ -92,21 +98,22 @@ public class Character : MonoBehaviour
             CharacterAnimator.SetBool("Falling", false);
     }
 
+        
 
         //Used to kill the Character and program the after effects.
         public void Kill()
         {
-            //Takes away a life..
+            //Takes away one of the player's lives
             livesObject.LoseLife();
-            //Saves the change when the life is taken away.
+            //Saves the changes when a life has been taken away.
             livesObject.SaveLives();
 
-            //Checks if it's game over.
+            //Checks to see if the player has lost all their lives and is in the game over state.
 
             bool gameOver = livesObject.isGameOver();
 
 
-            //If it is game over the game over screen is loaded.
+            //If it is game over then game over screen is loaded.
 
             //Checks if the game is in game over state
             if (gameOver == true)
@@ -127,5 +134,6 @@ public class Character : MonoBehaviour
             }
 
         }
+
 
     }

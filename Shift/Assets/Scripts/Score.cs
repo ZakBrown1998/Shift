@@ -9,7 +9,7 @@ public class Score : MonoBehaviour
 {
 
     //Variable used to track the visible text score.
-    //Public to let it be dragged and dropped in the editor.
+    //Public so it can be used in the editor.
     public Text scoreText;
 
     //Variable used to track the numerical score.

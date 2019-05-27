@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 44116405}
   - component: {fileID: 44116404}
   m_Layer: 0
-  m_Name: Orb1 (13)
+  m_Name: Orb14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,7 +387,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 44116402}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 84589379}
   - component: {fileID: 84589378}
   m_Layer: 0
-  m_Name: Orb1 (14)
+  m_Name: Orb15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,7 +511,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 84589376}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -121294,7 +121294,7 @@ GameObject:
   - component: {fileID: 264154417}
   - component: {fileID: 264154416}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121332,7 +121332,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 264154414}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -121510,7 +121510,7 @@ GameObject:
   - component: {fileID: 303723343}
   - component: {fileID: 303723342}
   m_Layer: 0
-  m_Name: Evil Spirit (2)
+  m_Name: Evil Spirit 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121548,7 +121548,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 303723340}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -121632,7 +121632,7 @@ GameObject:
   - component: {fileID: 376060070}
   - component: {fileID: 376060069}
   m_Layer: 0
-  m_Name: Orb1 (15)
+  m_Name: Orb16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121672,7 +121672,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 376060067}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -121794,7 +121794,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 394735913}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122047,7 +122047,7 @@ GameObject:
   - component: {fileID: 439478029}
   - component: {fileID: 439478028}
   m_Layer: 0
-  m_Name: Orb1 (6)
+  m_Name: Orb7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122087,7 +122087,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 439478026}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122259,7 +122259,7 @@ GameObject:
   - component: {fileID: 552257443}
   - component: {fileID: 552257442}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122297,7 +122297,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 552257440}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122469,7 +122469,7 @@ GameObject:
   - component: {fileID: 728901131}
   - component: {fileID: 728901130}
   m_Layer: 0
-  m_Name: Orb1 (11)
+  m_Name: Orb12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122509,7 +122509,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 728901128}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122593,7 +122593,7 @@ GameObject:
   - component: {fileID: 740216088}
   - component: {fileID: 740216087}
   m_Layer: 0
-  m_Name: Orb1 (2)
+  m_Name: Orb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122633,7 +122633,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 740216085}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122744,7 +122744,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 810618896}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122841,7 +122841,7 @@ GameObject:
   - component: {fileID: 837196560}
   - component: {fileID: 837196559}
   m_Layer: 0
-  m_Name: Evil Spirit (3)
+  m_Name: Evil Spirit 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122879,7 +122879,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 837196557}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -122963,7 +122963,7 @@ GameObject:
   - component: {fileID: 927794279}
   - component: {fileID: 927794278}
   m_Layer: 0
-  m_Name: Orb1 (1)
+  m_Name: Orb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123003,7 +123003,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 927794276}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123119,7 +123119,7 @@ GameObject:
   - component: {fileID: 956462219}
   - component: {fileID: 956462218}
   m_Layer: 0
-  m_Name: Orb1 (3)
+  m_Name: Orb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123159,7 +123159,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 956462216}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123243,7 +123243,7 @@ GameObject:
   - component: {fileID: 956837241}
   - component: {fileID: 956837240}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123281,7 +123281,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 956837238}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123413,7 +123413,7 @@ GameObject:
   - component: {fileID: 966183010}
   - component: {fileID: 966183009}
   m_Layer: 0
-  m_Name: Orb1 (4)
+  m_Name: Orb5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123453,7 +123453,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 966183007}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123537,7 +123537,7 @@ GameObject:
   - component: {fileID: 1122710649}
   - component: {fileID: 1122710648}
   m_Layer: 0
-  m_Name: Orb1 (5)
+  m_Name: Orb6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123577,7 +123577,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1122710646}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123661,7 +123661,7 @@ GameObject:
   - component: {fileID: 1219912322}
   - component: {fileID: 1219912321}
   m_Layer: 0
-  m_Name: Evil Spirit (1)
+  m_Name: Evil Spirit 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123699,7 +123699,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1219912319}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -123783,7 +123783,7 @@ GameObject:
   - component: {fileID: 1234584073}
   - component: {fileID: 1234584072}
   m_Layer: 0
-  m_Name: Orb1 (8)
+  m_Name: Orb9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123823,7 +123823,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1234584070}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -124322,7 +124322,7 @@ GameObject:
   - component: {fileID: 1552450297}
   - component: {fileID: 1552450296}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124360,7 +124360,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1552450294}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -124584,7 +124584,7 @@ GameObject:
   - component: {fileID: 1813689355}
   - component: {fileID: 1813689354}
   m_Layer: 0
-  m_Name: Orb1 (12)
+  m_Name: Orb13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124624,7 +124624,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1813689352}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -124708,7 +124708,7 @@ GameObject:
   - component: {fileID: 1880425211}
   - component: {fileID: 1880425210}
   m_Layer: 0
-  m_Name: Orb1 (9)
+  m_Name: Orb10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124748,7 +124748,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1880425208}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -124832,7 +124832,7 @@ GameObject:
   - component: {fileID: 1899142241}
   - component: {fileID: 1899142240}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124870,7 +124870,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1899142238}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -124954,7 +124954,7 @@ GameObject:
   - component: {fileID: 1907181943}
   - component: {fileID: 1907181942}
   m_Layer: 0
-  m_Name: Evil Spirit (4)
+  m_Name: Evil Spirit 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124992,7 +124992,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1907181940}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -125076,7 +125076,7 @@ GameObject:
   - component: {fileID: 1936617309}
   - component: {fileID: 1936617308}
   m_Layer: 0
-  m_Name: Orb1 (7)
+  m_Name: Orb8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125116,7 +125116,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1936617306}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -125248,7 +125248,7 @@ GameObject:
   - component: {fileID: 2071087264}
   - component: {fileID: 2071087263}
   m_Layer: 0
-  m_Name: Orb1 (10)
+  m_Name: Orb11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125288,7 +125288,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 2071087261}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19fb45b914e140d449707ae1d80c447b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -125423,6 +125423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 247641119584e8940a115d2e0c6839a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Jump: {fileID: 0}
   speed: 5
   jumpSpeed: 6.7
   physicsBody: {fileID: 2137879209}

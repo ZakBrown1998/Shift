@@ -8,10 +8,10 @@ using UnityEngine.UI;
 public class HighScore : MonoBehaviour
 {
 
-    //Used to display high scores.
+    //Used to display the high scores.
     public List<Text> highScoreDisplays = new List<Text>();
 
-    //Internal data for score values.
+    //Internal data for the score values.
     private List<int> highScoreData = new List<int>();
 
     // Used for initialization.

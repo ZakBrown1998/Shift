@@ -4,15 +4,17 @@ using UnityEngine;
 
 using UnityEngine.SceneManagement;
 
-public class Title : MonoBehaviour
-{
+public class ToControls : MonoBehaviour {
 
-
-
-    void Update()
-    {
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
         //Used to make the game scene transition from the Title to the Story.
         //The transisition activates when the "Space Bar" has been pressed by the player.
-        if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Story"); }
+        if (Input.GetButtonDown("Submit")) { SceneManager.LoadScene("Controls"); }
     }
 }
