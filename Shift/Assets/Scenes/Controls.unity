@@ -145,7 +145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -101}
+  m_AnchoredPosition: {x: 394, y: -123}
   m_SizeDelta: {x: 160, y: 101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &45254166
@@ -343,7 +343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -213}
+  m_AnchoredPosition: {x: 390, y: -268}
   m_SizeDelta: {x: 160, y: 90.5}
   m_Pivot: {x: 0.5, y: 0.4149115}
 --- !u!114 &204510001
@@ -419,7 +419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -299.5}
+  m_AnchoredPosition: {x: 393, y: -377}
   m_SizeDelta: {x: 160, y: 90.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206253245
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 298816941}
   - component: {fileID: 298816940}
   m_Layer: 0
-  m_Name: Time Jewel 1
+  m_Name: Time Jewel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 336774242}
   - component: {fileID: 336774241}
   m_Layer: 0
-  m_Name: Orb1
+  m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,7 +1157,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1256705488
 SpriteRenderer:
@@ -1262,7 +1262,7 @@ Transform:
   m_Children:
   - {fileID: 1612554703}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1545674928
 GameObject:
@@ -1296,7 +1296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149, y: -281}
+  m_AnchoredPosition: {x: -149, y: -376}
   m_SizeDelta: {x: 160, y: 90.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545674930
@@ -1703,5 +1703,5 @@ Transform:
   - {fileID: 866995377}
   - {fileID: 393175114}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
