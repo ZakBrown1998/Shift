@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class TriggerScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    public AudioSource Warp;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -13,20 +16,21 @@ public class TriggerScript : MonoBehaviour {
 	void Update () {
 		
 	}
-    //makes the animator visible in the inspector 
+    //This makes the animator visible in the inspector 
     [SerializeField] private Animator timeJewelController;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //this is stops the boulder from moving when colliding with the trigger
+        //this changes the background when the Character touches the Jewel. 
         if (other.CompareTag("Player"))
             timeJewelController.SetBool("ChangeBackground", true);
+        Warp.Play();
     }
 
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        //this is if the boulder hasnt hit the trigger and the animation still plays
+        //this is if the Character hasn't hit the Jewel and it makes sure the original background animation still plays.
         if (other.CompareTag("Player"))
             timeJewelController.SetBool("ChangeBackground", false);
     }
